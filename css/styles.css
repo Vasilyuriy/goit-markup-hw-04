@@ -132,6 +132,9 @@ button {
 
 /* HERO SECTION */
 .hero {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
@@ -139,7 +142,6 @@ button {
     ),
     url("../images/people-office1-min.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: var(--headers-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -415,7 +417,6 @@ button {
 /* FOOTER*/
 .footer-container {
   display: flex;
-  flex-direction: row;
 }
 .social-box {
   margin-left: 120px;
@@ -431,7 +432,7 @@ button {
   padding-bottom: 100px;
 }
 
-.footer-p {
+.footer-t {
   display: block;
   width: 264px;
   margin-top: 16px;
@@ -443,7 +444,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer-p-social {
+.footer-t-social {
   color: var(--hero-text-color);
 }
 
@@ -465,7 +466,7 @@ button {
 }
 
 .footer-social-list {
-  padding-top: 16px;
+  margin-top: 16px;
   display: flex;
   gap: 16px;
 }
@@ -538,6 +539,9 @@ button {
 .smain-button:focus {
   background-color: var(--hoover-color);
   color: var(--hero-text-color);
+  box-shadow: 0 1px 6px 0 rgba(0, 2, 02, 0.12);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.1));
 }
 
 .smain-list-examples {
